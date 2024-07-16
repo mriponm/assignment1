@@ -53,6 +53,9 @@
     letter-spacing: 0%;
     text-align: center;
 }
+section{
+    margin: 80px 0;
+}
 /* Hero styles */
 .hero{
     background-image: url(../assets/Hero-bg.png);
@@ -141,9 +144,45 @@
 }
 
 /* Inspiration Section */
-.inspiration{
-    margin: 80px 0;
-}
 .inspiration-video{
     margin-top: 32px;
+}
+
+/* My Target section Styles */
+.target-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 40px;
+}
+.target-item-html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.target-item-css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.target-item-java{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.target-item-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.target-item-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.target-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
