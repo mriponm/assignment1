@@ -47,7 +47,7 @@
 }
 .section-description{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -138,4 +138,12 @@
     padding: 12px 20px 12px 20px;
     color: rgb(13, 19, 33);
     font-size: 16px;
+}
+
+/* Inspiration Section */
+.inspiration{
+    margin: 80px 0;
+}
+.inspiration-video{
+    margin-top: 32px;
 }
