@@ -228,7 +228,7 @@ section{
 }
 
 /* Support Section Styles */
-.support{
+#support{
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     border-radius: 16px;
